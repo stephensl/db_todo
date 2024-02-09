@@ -1,0 +1,176 @@
+repo_name: stephensl/db_todo
+report_id: 13bd2c0837b2c5147689e8c3e290865e
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-09T19:26:01+00:00'
+requested_by: stephensl
+provider: github
+branch: main
+detected_tools_count: 13
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/stephensl/db_todo
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/stephensl/db_todo
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  version: 3.2.2
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/stephensl/db_todo/blob/main/Gemfile.lock
+  detection_source: Repo Metadata
+  last_updated_by: Lawton Stephens
+  last_updated_on: 2023-10-12 19:37:32.000000000 Z
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/stephensl/db_todo/blob/main/schema.sql
+  detection_source: schema.sql
+  last_updated_by: Lawton Stephens
+  last_updated_on: 2023-10-13 14:49:28.000000000 Z
+- name: Sinatra
+  description: Classy web-development dressed in a DSL
+  website_url: http://www.sinatrarb.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/999/logo.png
+  detection_source_url: https://github.com/stephensl/db_todo/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Lawton Stephens
+  last_updated_on: 2023-10-12 19:37:32.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/stephensl/db_todo/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Lawton Stephens
+  last_updated_on: 2023-10-12 19:14:28.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/stephensl/db_todo
+  detection_source: Repo Metadata
+- name: Puma
+  description: A Modern, Concurrent Web Server for Ruby
+  website_url: http://puma.io/
+  version: 6.4.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1055/favicon.png
+  detection_source_url: https://github.com/stephensl/db_todo/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Lawton Stephens
+  last_updated_on: 2023-10-12 19:14:28.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/stephensl/db_todo/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Lawton Stephens
+  last_updated_on: 2023-10-12 19:14:28.000000000 Z
+- name: erubis
+  description: 'Erubis is an implementation of eRuby and has the following features:
+    * Very fast, almost three times faster than ERB and about 10% faster than eruby'
+  package_url: https://rubygems.org/erubis
+  version: 2.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18951/default_310421aa2a25d1a0887d82eef53bba1245fcdb4e.png
+  detection_source_url: https://github.com/stephensl/db_todo/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Lawton Stephens
+  last_updated_on: 2023-10-12 19:14:28.000000000 Z
+- name: pg
+  description: Pg is the Ruby interface to the {PostgreSQL RDBMS}[http://www.postgresql.org/]
+  package_url: https://rubygems.org/pg
+  version: 1.5.4
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18855/default_d343d9a7c573fa5dcbeb4d3c43d2ffe4afa82cc1.png
+  detection_source_url: https://github.com/stephensl/db_todo/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Lawton Stephens
+  last_updated_on: 2023-10-12 19:14:28.000000000 Z
+- name: sinatra-contrib
+  description: Collection of useful Sinatra extensions
+  package_url: https://rubygems.org/sinatra-contrib
+  version: 3.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19010/default_4361ccfae4dee655802081d8182ddcaebd7a2b3f.png
+  detection_source_url: https://github.com/stephensl/db_todo/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Lawton Stephens
+  last_updated_on: 2023-10-12 19:37:32.000000000 Z
+- name: webrick
+  description: WEBrick is an HTTP server toolkit that can be configured as an HTTPS
+    server
+  package_url: https://rubygems.org/webrick
+  version: 1.8.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19444/default_e747a715ce0379afdb68c78657d70e4a512bf5f4.png
+  detection_source_url: https://github.com/stephensl/db_todo/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Lawton Stephens
+  last_updated_on: 2023-10-12 19:37:32.000000000 Z
